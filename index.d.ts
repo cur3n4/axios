@@ -9,6 +9,7 @@ export interface AxiosAdapter {
 export interface AxiosBasicCredentials {
   username: string;
   password: string;
+  protocol?: string;
 }
 
 export interface AxiosProxyConfig {
